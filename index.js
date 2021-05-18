@@ -626,7 +626,7 @@ tiringa.on('group-participants-update', async (anu) => {
             const testat = budy
             const totalchat = await tiringa.chats.all()
 			const botNumber = tiringa.user.jid
-			const ownerNumber = [`557499510904@s.whatsapp.net`]
+			const ownerNumber = [`558498198074@s.whatsapp.net`]
 			const ownerNumberB = []
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
@@ -3324,7 +3324,7 @@ try{
 if(!isGroup) return reply(ptbr.group())
 if (!isGroupAdmins)return reply(ptbr.admin())
 d = []
-top1 = body.slice(5)
+top1 = body.slice(2)
 teks = `️‍Top 5${top1}:\n`
 for(i = 0; i < 5; i++) {
 r = Math.floor(Math.random() * groupMetadata.participants.length + 0)
